@@ -1,3 +1,4 @@
+/* nav */
 
 .nav-logo-img{
     width: 42px;
@@ -13,6 +14,7 @@
 .nav-logo-title{
     font-weight: 550;
     font-size: 22px;
+    text-decoration: none;
 }
 
 .nav {
@@ -29,8 +31,13 @@
     gap: 50px;
     margin-right: 30px;
 
-    a:-webkit-any-link {
+    a {
         text-decoration: none;
+        transition: 0.3s all;
+    }
+
+    a:hover{
+      color: #20bb20;
     }
 }
 
@@ -77,6 +84,10 @@
     margin: 200px 0;
 }
 
+.main2{
+  margin: 200px 0;
+}
+
 .main-btns{
     display: flex;
     justify-content: center;
@@ -113,6 +124,12 @@ button:hover{
     text-align: center;
     font-size: 54px;
     margin: 25px 0;
+}
+
+.main-podtitle{
+  text-align: center;
+  font-size: 34px;
+  margin: 25px 0;
 }
 
 .footer {
@@ -171,3 +188,45 @@ button:hover{
     font-size: 14px;
   }
   
+
+/* comparison */
+
+.comparison-div{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.comparison-title{
+  text-align: center;
+  font-size: 36px;
+}
+
+.comparison-podtitle{
+  text-align: center;
+  font-size: 32px;
+}
+
+.comparison-input{
+  padding: 10px 25px;
+  border: 1px solid #00ff00;
+  border-radius: 6px;
+}
+
+.comparison-btn{
+  padding: 10px 75px;
+  border: 1px solid #00ff00;
+  border-radius: 6px;
+  background-color: #00ff00;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.select-gen{
+  padding: 10px 70px;
+  border: 1px solid #00ff00;
+  border-radius: 6px;
+}
